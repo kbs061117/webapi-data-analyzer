@@ -3,6 +3,10 @@
 ## Install
 pip install -r requirements.txt
 
+## Demo
+![Histogram](assets/hist.png)
+![Bar](assets/bar.png)
+
 ## Run (examples)
 python main.py --example users --save-csv
 python main.py --example todos --save-csv
@@ -12,3 +16,4 @@ python main.py --url "https://jsonplaceholder.typicode.com/users" --save-csv
 
 ## Choose columns
 python main.py --example todos --hist id --bar completed --save-csv
+
